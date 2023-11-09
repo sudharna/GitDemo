@@ -19,6 +19,8 @@ public class Assignment1 {
 		Assert.assertFalse(driver.findElement(By.id("checkBoxOption1")).isSelected());
 		
 		System.out.println( driver.findElements(By.cssSelector("input[type='checkbox']")).size());
+		System.out.println("sudharna");
+		System.out.println("sudharnaaaa");
 	}
 
 }
